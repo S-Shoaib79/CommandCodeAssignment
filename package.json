@@ -1,0 +1,16 @@
+{
+  "name": "mini-agent",
+  "version": "1.0.0",
+  "description": "A mini coding agent CLI with Agent Skills support",
+  "type": "module",
+  "bin": {
+    "mini-agent": "./bin/mini-agent.js"
+  },
+  "scripts": {
+    "start": "node bin/mini-agent.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "gray-matter": "^4.0.3"
+  }
+}
