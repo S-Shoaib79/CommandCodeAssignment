@@ -25,10 +25,10 @@ $env:ANTHROPIC_API_KEY = "your-key-here"
 
 Copied two skills from the [CommandCodeAI/agent-skills](https://github.com/CommandCodeAI/agent-skills) repo into `.skills/`:
 
-1. `skills/changelog-generator/` → `.skills/changelog-generator/`
-2. Pick one more (e.g. `skills/internal-comms/` → `.skills/internal-comms/`)
+1. `skills/changelog-generator/`
+2. `skills/internal-comms/`
 
-Each folder must contain a `SKILL.md` file.
+Each folder has a `SKILL.md` file.
 
 ## Run
 
@@ -69,7 +69,8 @@ mini-agent/
 
 I took time understanding the rubric since that was a bit vague. With help of LLM and my personal perspective as well, i found the welcome me skill to brief the user about "this" project and not any generic project they want to work on.
 Being new to js, i took help from the LLM to write code but ensured its testing and working myself.
-Got free credits for the Claude API
+
+OK SO NOW PERSONALIZED UPDATE: I didn't get Claude API because it was paid, instead i cloned the project to work for MISTRAL and it was fetching skills as needed after identifying as per the formed pipeline. The github only had the Claude approach, npm needs to be downloaded to further work it. THANK YOU!
 
 **Demo command:**
 ```bash
