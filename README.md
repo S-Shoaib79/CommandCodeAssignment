@@ -40,7 +40,7 @@ node bin/mini-agent.js "I'm new to this project, what should I do"
 
 | Prompt | Expected |
 |--------|----------|
-| `I'm new to this project, what should I do` | Activates `welcome-me`, prints `> Welcome to our Command Code assignment agent!` |
+| `I'm new to this project, what should I do` | Activates `welcome-me` |
 | `what's the weather?` | No skill activated |
 | `generate a changelog from recent commits` | Activates `changelog-generator` |
 
@@ -53,7 +53,7 @@ mini-agent/
 │   ├── index.js            ← main flow
 │   ├── discover.js         ← finds skills
 │   ├── parse-skill.js      ← reads SKILL.md 
-│   ├── matcher.js          ← skill routing (done, TODO: tweak prompt)
+│   ├── matcher.js          ← skill routing 
 │   └── claude.js           ← API calls 
 └── .skills/
     ├── welcome-me/         
