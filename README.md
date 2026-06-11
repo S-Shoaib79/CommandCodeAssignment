@@ -23,7 +23,7 @@ $env:ANTHROPIC_API_KEY = "your-key-here"
 
 ## Add registry skills
 
-Copied two skills from the [CommandCodeAI/agent-skills](https://github.com/CommandCodeAI/agent-skills) repo into `.skills/`:
+Copied two skills from the repo into `.skills/`:
 
 1. `skills/changelog-generator/`
 2. `skills/internal-comms/`
@@ -58,7 +58,7 @@ mini-agent/
 └── .skills/
     ├── welcome-me/         
     ├── changelog-generator/ 
-    └── <second-skill>/     
+    └── internal- comms     
 ```
 
 ## Submission notes 
